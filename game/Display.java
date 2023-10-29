@@ -168,6 +168,10 @@ public class Display {
 			gameEnded();
 		}
 
+		else if (p == 21 && d == 21) {
+			this.WİNNER = 1;
+			gameEnded();
+		}
 		else if (p == 21 && d < 21) {
 			this.WİNNER = 1;
 			gameEnded();
