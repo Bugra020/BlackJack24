@@ -169,7 +169,7 @@ public class Display {
 		}
 
 		else if (p == 21 && d == 21) {
-			this.WİNNER = 1;
+			this.WİNNER = 0;
 			gameEnded();
 		}
 		else if (p == 21 && d < 21) {
